@@ -41,7 +41,6 @@ public class ChoicenessGoodsListController {
              return ResultGenerator.genFailResult("数据不存在，删除数据失败");
         }
     }
-
     @PostMapping("/update")
     public Result update(ChoicenessGoodsList choicenessGoodsList) {
         choicenessGoodsListService.update(choicenessGoodsList);
@@ -64,7 +63,8 @@ public class ChoicenessGoodsListController {
 
 
     @PostMapping("/list")
-    public Result list(@RequestParam(defaultValue = "0") Integer page, @RequestParam(defaultValue = "0") Integer size) {
+    public Result list(@RequestParam(defaultValue = "0") Integer page,
+                       @RequestParam(defaultValue = "0") Integer size) {
         PageHelper.startPage(page, size);
         List<ChoicenessGoodsList> list = choicenessGoodsListService.findAll();
         PageInfo pageInfo = new PageInfo(list);
