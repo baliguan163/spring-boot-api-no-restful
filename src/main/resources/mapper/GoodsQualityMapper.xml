@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.company.project.dao.GoodsQualityMapper">
+  <resultMap id="BaseResultMap" type="com.company.project.model.GoodsQuality">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="category_name" jdbcType="VARCHAR" property="categoryName" />
+    <result column="seller_nickname" jdbcType="VARCHAR" property="sellerNickname" />
+    <result column="platform_type" jdbcType="VARCHAR" property="platformType" />
+    <result column="goods_id" jdbcType="VARCHAR" property="goodsId" />
+    <result column="goods_name" jdbcType="VARCHAR" property="goodsName" />
+    <result column="goods_url" jdbcType="VARCHAR" property="goodsUrl" />
+    <result column="goods_pic_url" jdbcType="VARCHAR" property="goodsPicUrl" />
+    <result column="goods_price" jdbcType="VARCHAR" property="goodsPrice" />
+    <result column="income_rate" jdbcType="VARCHAR" property="incomeRate" />
+    <result column="discounts_denomination" jdbcType="VARCHAR" property="discountsDenomination" />
+    <result column="discounts_sell_price" jdbcType="VARCHAR" property="discountsSellPrice" />
+    <result column="discounts_number" jdbcType="VARCHAR" property="discountsNumber" />
+    <result column="discounts_remain_number" jdbcType="VARCHAR" property="discountsRemainNumber" />
+    <result column="discounts_begin_date" jdbcType="VARCHAR" property="discountsBeginDate" />
+    <result column="discounts_end_date" jdbcType="VARCHAR" property="discountsEndDate" />
+    <result column="discounts_generalize_url" jdbcType="VARCHAR" property="discountsGeneralizeUrl" />
+  </resultMap>
+</mapper>

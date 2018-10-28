@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.company.project.dao.GoodsChoicenessMapper">
+  <resultMap id="BaseResultMap" type="com.company.project.model.GoodsChoiceness">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="goods_id" jdbcType="VARCHAR" property="goodsId" />
+    <result column="goods_name" jdbcType="VARCHAR" property="goodsName" />
+    <result column="goods_url" jdbcType="VARCHAR" property="goodsUrl" />
+    <result column="goods_detail_url" jdbcType="VARCHAR" property="goodsDetailUrl" />
+    <result column="goods_1_category" jdbcType="VARCHAR" property="goods1Category" />
+    <result column="tao_bao_ke_url" jdbcType="VARCHAR" property="taoBaoKeUrl" />
+    <result column="goods_price" jdbcType="VARCHAR" property="goodsPrice" />
+    <result column="monthl_sales_volume" jdbcType="VARCHAR" property="monthlSalesVolume" />
+    <result column="income_rate" jdbcType="VARCHAR" property="incomeRate" />
+    <result column="commission" jdbcType="VARCHAR" property="commission" />
+    <result column="seller_wang_wang" jdbcType="VARCHAR" property="sellerWangWang" />
+    <result column="seller_id" jdbcType="VARCHAR" property="sellerId" />
+    <result column="shop_name" jdbcType="VARCHAR" property="shopName" />
+    <result column="platform_type" jdbcType="VARCHAR" property="platformType" />
+    <result column="discount_coupon_id" jdbcType="VARCHAR" property="discountCouponId" />
+    <result column="discount_coupon_sum" jdbcType="VARCHAR" property="discountCouponSum" />
+    <result column="discount_coupon_residue" jdbcType="VARCHAR" property="discountCouponResidue" />
+    <result column="denomination" jdbcType="VARCHAR" property="denomination" />
+    <result column="discount_coupon_begin_date" jdbcType="VARCHAR" property="discountCouponBeginDate" />
+    <result column="discount_coupon_end_date" jdbcType="VARCHAR" property="discountCouponEndDate" />
+    <result column="generalize_url" jdbcType="VARCHAR" property="generalizeUrl" />
+    <result column="discount_coupon_generalize_url" jdbcType="VARCHAR" property="discountCouponGeneralizeUrl" />
+  </resultMap>
+</mapper>

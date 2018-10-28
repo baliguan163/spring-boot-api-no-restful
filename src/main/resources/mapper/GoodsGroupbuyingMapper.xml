@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.company.project.dao.GoodsGroupbuyingMapper">
+  <resultMap id="BaseResultMap" type="com.company.project.model.GoodsGroupbuying">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="goods_id" jdbcType="VARCHAR" property="goodsId" />
+    <result column="goods_name" jdbcType="VARCHAR" property="goodsName" />
+    <result column="goods_price" jdbcType="VARCHAR" property="goodsPrice" />
+    <result column="group_purchase_price" jdbcType="VARCHAR" property="groupPurchasePrice" />
+    <result column="group_purchase_number" jdbcType="VARCHAR" property="groupPurchaseNumber" />
+    <result column="goods_url" jdbcType="VARCHAR" property="goodsUrl" />
+    <result column="goods_begin_date" jdbcType="VARCHAR" property="goodsBeginDate" />
+    <result column="goods_end_date" jdbcType="VARCHAR" property="goodsEndDate" />
+    <result column="inventory_number" jdbcType="VARCHAR" property="inventoryNumber" />
+    <result column="sold_number" jdbcType="VARCHAR" property="soldNumber" />
+    <result column="remain_number" jdbcType="VARCHAR" property="remainNumber" />
+    <result column="generalize_long_url" jdbcType="VARCHAR" property="generalizeLongUrl" />
+    <result column="generalize_short_url" jdbcType="VARCHAR" property="generalizeShortUrl" />
+    <result column="commission_rate" jdbcType="VARCHAR" property="commissionRate" />
+    <result column="commission_price" jdbcType="VARCHAR" property="commissionPrice" />
+    <result column="primary_categories_id" jdbcType="VARCHAR" property="primaryCategoriesId" />
+    <result column="primary_categories_name" jdbcType="VARCHAR" property="primaryCategoriesName" />
+  </resultMap>
+</mapper>
